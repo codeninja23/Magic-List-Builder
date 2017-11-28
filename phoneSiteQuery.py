@@ -25,7 +25,7 @@ with open(sitelist, newline='') as csvfile:
             emails = re.findall(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,3}",s)
             dataStorage = [row[0]]
             if len(phone) == 0:
-                dataStorage.appen('no phone')
+                dataStorage.append('no phone')
                 # print (" no phone,", end='')
 
             else :
