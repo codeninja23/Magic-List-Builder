@@ -1,14 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1504.83">
-  <style type="text/css">
-  </style>
-</head>
-<body>
-</body>
-</html>
+Hi All!
+
+Thanks for collaborating on this phone scraping tool. I was surprised that I couldn't find a clean open-source solution online so here we go.
+<br>
+
+The tool reliably pumps out phone numbers given a URL. Here is a running list of to-do items to improve the tool:
+<br>
+• Make it so that results show on one line per website to make it easier to upload to CRM <br>
+• Use proper redirect for header so that it detects HTTP vs HTTPS and goes to the correct one, provides cert for SSL if needed <br>
+• De-duplicate results so that matching results are excluded <br>
+• Make it ignore the first row of a file so that we can use files and retain the column titles. <br>
+
+Stretch goals: <br>
+• Translating it into JavaScript to make it a tad easier throw into full web applications. <br>
+• building out the API/DB Models to request and save results. <br>
+
