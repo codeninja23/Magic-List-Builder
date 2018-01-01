@@ -12,5 +12,5 @@ Stretch goals: <br>
 • Translating it into JavaScript to make it a tad easier throw into full web applications. <strong>Coming soon!</strong><br>
 • building out the API/DB Models to request and save results. <br>
 
-After you download, run in shell with the following comand: <strong>python3.6 phoneSiteQuery.py</strong>
+After you download, run in shell with the following command: <strong>python3.6 phoneSiteQuery.py</strong>
 
