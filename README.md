@@ -9,6 +9,8 @@ The tool reliably pumps out phone numbers given a URL. Here is a running list of
 • De-duplicate results so that matching results are excluded <br>
 
 Stretch goals: <br>
-• Translating it into JavaScript to make it a tad easier throw into full web applications. <br>
+• Translating it into JavaScript to make it a tad easier throw into full web applications. <strong>Coming soon!</strong><br>
 • building out the API/DB Models to request and save results. <br>
+
+After you download, run in shell with the following comand: <strong>python3.6 phoneSiteQuery.py</strong>
 
